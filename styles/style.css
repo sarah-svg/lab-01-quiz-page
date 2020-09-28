@@ -1,0 +1,42 @@
+html{
+    width: max-content;
+    height: auto;
+    background-color: darkgray;
+    
+}
+
+
+
+
+.top-left{
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+.main-section{
+
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+    color: blue;
+}
+.paragraph3{
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    color:grey;
+
+
+  
+
+}
+.paragraph2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
+    color: navy;
+
+}
