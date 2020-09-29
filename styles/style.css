@@ -1,15 +1,22 @@
-html{
-    width: max-content;
+html, body{
+    width: 100%;
     height: auto;
-    background-color: darkgray;
-    
+   margin: 0;
+   display: flex;
+    justify-content: center;
 }
 
 
 
 
 .top-left{
-  justify-content: flex-end;
+    color: hotpink;
+    background: whitesmoke;
+    padding: 0%;
+    border-radius: .5pc;
+    border: 4px;
+
+  
 }
 
 
@@ -19,16 +26,19 @@ html{
 
 
 .main-section{
-
-
-    font-family: 'Roboto Mono', monospace;
-    font-size: small;
-    color: blue;
+    font-family: 'Lora', serif;
+        display: grid;
+        background-color: whitesmoke;
+      color: indigo;
+        padding: 45mm;
+        border: 20%;
+ 
 }
 .paragraph3{
     font-family: 'Playfair Display', serif;
-    font-size: medium;
-    color:grey;
+    background-color: whitesmoke;
+    padding: 45mm;
+    color: olive;
 
 
   
@@ -36,7 +46,9 @@ html{
 }
 .paragraph2{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: x-large;
-    color: navy;
-
+    background-color:whitesmoke;
+    color: hotpink;
+    font-family: cursive;
+    padding: 45mm;
+    font-size: large;
 }

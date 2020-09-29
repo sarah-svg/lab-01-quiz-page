@@ -5,7 +5,7 @@ const test = QUnit.test;
 
 test('countsAsAYes should take in a yes-like and return true', (expect) => {
   
-    const yes = 'yaaa';
+    const yes = 'ya';
     const expected = true;
     
     const actual = countsAsAYes(yes);
